@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Filtro Modificado</title>
+    <link rel="stylesheet" href="filtro1.css">
+    <script src="filtromodi.js"></script>
+  </head>
+  <body onload="main();">
+    <p>Imagen original</p>
+    <img src="black-hole.jpg" id="imagesrc">
+    <p>Imagen manipulada</p>
+    <canvas id="display"></canvas>
+    <p>Rojo:</p>
+    <input type="range" id="deslizadorrojo" min="0" max="255" value="255"/>
+    <p id="rango_rojo">00</p>
+    <p>Verde:</p>
+    <input type="range" id="deslizadorverde" min="0" max="255" value="255"/>
+    <p id="rango_verde">00</p>
+    <p>Azul:</p>
+    <input type="range" id="deslizadorazul" min="0" max="255" value="255"/>
+    <p id="rango_azul">00</p>
+    <br>
+    <button id = "gris" type = "button">Grises</button>
+  </body>
+</html>
